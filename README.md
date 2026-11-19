@@ -2,6 +2,18 @@
 
 Reproducible binary intrusion detection on CIC-IDS2017, with an independent CPU MLP and validation-selected probability-fusion aggregator.
 
+# CyberSentinel AI
+
+### Live Application
+
+**Try the CyberSentinel AI Intrusion Detection Dashboard:**
+
+https://cybersentinel-ai-demo.streamlit.app/
+
+Upload network-flow CSV data, explore intrusion detection predictions,
+compare machine learning models, and review explainability results.
+
+**Note:** This is a research prototype, not a production security monitoring system.
 ## Windows ARM64 setup (VS Code / PowerShell)
 
 Use **native ARM64 Python 3.12**, if available. Check `python -c "import platform; print(platform.machine())"` (expected `ARM64` for native Python). Windows ARM64 wheel availability varies by package/version; installation must be tested on your machine. A Python x64 environment under Windows emulation is a fallback if a dependency lacks ARM64 support. The project deliberately does not require PyTorch, XGBoost, or LightGBM for its core workflow.
