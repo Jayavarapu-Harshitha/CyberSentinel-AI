@@ -1,0 +1,40 @@
+{
+  "repeats": 7,
+  "measurements": {
+    "logistic_regression": {
+      "inference_seconds_median": 0.00433997399989039,
+      "inference_ms_per_row_median": 0.0006112639436465338,
+      "inference_rows": 7100
+    },
+    "random_forest": {
+      "inference_seconds_median": 0.03944837599999573,
+      "inference_ms_per_row_median": 0.005556109295774047,
+      "inference_rows": 7100
+    },
+    "xgboost": {
+      "inference_seconds_median": 0.010752175999982683,
+      "inference_ms_per_row_median": 0.001514390985913054,
+      "inference_rows": 7100
+    },
+    "lightgbm": {
+      "inference_seconds_median": 0.025861331999976755,
+      "inference_ms_per_row_median": 0.0036424411267572893,
+      "inference_rows": 7100
+    },
+    "mlp": {
+      "inference_seconds_median": 0.008838956999966285,
+      "inference_ms_per_row_median": 0.001244923521122012,
+      "inference_rows": 7100
+    },
+    "hist_gradient_boosting": {
+      "inference_seconds_median": 0.020147100999906797,
+      "inference_ms_per_row_median": 0.0028376198591418024,
+      "inference_rows": 7100
+    },
+    "tuned_fusion": {
+      "inference_seconds_median": 0.06768433399997775,
+      "inference_ms_per_row_median": 0.00953300478872926,
+      "inference_rows": 7100
+    }
+  }
+}

@@ -1,0 +1,7 @@
+seed: 42
+chunk_size: 25000
+max_rows_per_class: 30000
+validation_fraction: 0.15
+test_fraction: 0.15
+threshold: 0.5
+models: [logistic_regression, random_forest, mlp, hist_gradient_boosting, xgboost, lightgbm]

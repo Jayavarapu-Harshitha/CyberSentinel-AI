@@ -1,0 +1,22 @@
+{
+  "method": "unsupervised IsolationForest trained on benign train only",
+  "train_seconds": 0.1269735190001029,
+  "threshold": "95th percentile of benign TRAIN anomaly scores",
+  "threshold_value": 0.5404556868358895,
+  "test_metrics": {
+    "accuracy": 0.7608450704225352,
+    "balanced_accuracy": 0.7112508116781356,
+    "precision": 0.8539397821909033,
+    "recall": 0.4755618979664645,
+    "f1": 0.6109074243813015,
+    "pr_auc": 0.613143477088902,
+    "roc_auc": 0.7112508116781358,
+    "false_positive_rate": 0.05306027461019316,
+    "tn": 4069,
+    "fp": 228,
+    "fn": 1470,
+    "tp": 1333
+  },
+  "test_average_precision_anomaly_scores": 0.7921020885319021,
+  "test_roc_auc_anomaly_scores": 0.8663307150131957
+}

@@ -1,0 +1,9 @@
+{
+  "skipped_models": {},
+  "fusion": {
+    "tree": "lightgbm",
+    "mlp_weight": 0.1,
+    "selection": "tree by validation PR-AUC; fusion weight by validation F1"
+  },
+  "warning": "Random stratified sampled-data evaluation; not full dataset or unseen-day evaluation"
+}

@@ -1,0 +1,5 @@
+mlp F1= 0.9654 PR-AUC= 0.9958
+logistic_regression F1= 0.9303 PR-AUC= 0.9811
+hist_gradient_boosting F1= 0.9943 PR-AUC= 0.9998
+equal_fusion F1= 0.9939 PR-AUC= 0.9994
+tuned_fusion F1= 0.9947 PR-AUC= 0.9995

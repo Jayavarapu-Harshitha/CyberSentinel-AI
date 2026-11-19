@@ -1,0 +1,70 @@
+{
+  "held_out_file_pattern": "Friday-WorkingHours-Afternoon-DDos",
+  "note": "File-held-out test; attacks exclusive to held-out file may be unseen classes; metrics do not imply unseen-family detection",
+  "train_rows": 33309,
+  "validation_rows": 5879,
+  "test_rows": 8144,
+  "test_positive_fraction": 0.8414783889980354,
+  "models": {
+    "logistic_regression": {
+      "validation": {
+        "accuracy": 0.9474400408232693,
+        "balanced_accuracy": 0.9494113980541594,
+        "precision": 0.8814352574102964,
+        "recall": 0.9543918918918919,
+        "f1": 0.916463909164639,
+        "pr_auc": 0.9811871483104505,
+        "roc_auc": 0.9904828207442148,
+        "false_positive_rate": 0.055569095783573,
+        "tn": 3875,
+        "fp": 228,
+        "fn": 81,
+        "tp": 1695
+      },
+      "test": {
+        "accuracy": 0.6882367387033399,
+        "balanced_accuracy": 0.776718016489468,
+        "precision": 0.973441615452151,
+        "recall": 0.6471618269371079,
+        "f1": 0.7774563940748532,
+        "pr_auc": 0.9823157061442577,
+        "roc_auc": 0.9311258459292819,
+        "false_positive_rate": 0.09372579395817196,
+        "tn": 1170,
+        "fp": 121,
+        "fn": 2418,
+        "tp": 4435
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "accuracy": 0.995237285252594,
+        "balanced_accuracy": 0.9946718287871102,
+        "precision": 0.9910112359550561,
+        "recall": 0.9932432432432432,
+        "f1": 0.9921259842519685,
+        "pr_auc": 0.9992335046927658,
+        "roc_auc": 0.9994776262370095,
+        "false_positive_rate": 0.0038995856690226664,
+        "tn": 4087,
+        "fp": 16,
+        "fn": 12,
+        "tp": 1764
+      },
+      "test": {
+        "accuracy": 0.7024803536345776,
+        "balanced_accuracy": 0.8197584145895271,
+        "precision": 0.9975292003593891,
+        "recall": 0.6480373559025244,
+        "f1": 0.7856700574966828,
+        "pr_auc": 0.9821479878145916,
+        "roc_auc": 0.9192861421035732,
+        "false_positive_rate": 0.008520526723470178,
+        "tn": 1280,
+        "fp": 11,
+        "fn": 2412,
+        "tp": 4441
+      }
+    }
+  }
+}

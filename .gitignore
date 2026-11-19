@@ -1,0 +1,97 @@
+
+# ==========================================
+# CyberSentinel AI - .gitignore
+# GitHub and Streamlit Deployment
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Original CIC-IDS2017 dataset
+data/
+*.pcap
+*.pcapng
+
+# Academic final report - submitted separately
+*.pdf
+
+# Project ZIP archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Project backups
+backups/
+README_before_final_update.md
+app_*backup.py
+app_before_*.py
+
+# Local vector database
+chroma_db/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# IDE settings
+.vscode/
+.idea/
+
+# ==========================================
+# IMPORTANT: DO NOT IGNORE
+# ==========================================
+# app.py
+# api.py
+# standalone_model.py
+# ai_aggregator.py
+# sample_upload.csv
+# README.md
+# requirements.txt
+# pyproject.toml
+# src/
+# scripts/
+# configs/
+# tests/
+# reports/
+# artifacts/
+#
+# Trained models in artifacts/ may be needed
+# for Streamlit inference. Check their sizes
+# before pushing to GitHub.
+# ==========================================
+artifacts/train.pkl
+artifacts/test.pkl
+artifacts/val.pkl

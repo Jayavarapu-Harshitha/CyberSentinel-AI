@@ -1,0 +1,107 @@
+{
+  "tree": "lightgbm",
+  "method": "permutation importance on sampled validation rows",
+  "validation_rows": 150,
+  "top_features": [
+    {
+      "feature": "Bwd Packet Length Std",
+      "importance_mean": 0.00811233736271603,
+      "importance_std": 0.0057400722526634905
+    },
+    {
+      "feature": "Init_Win_bytes_forward",
+      "importance_mean": 0.004363004921644098,
+      "importance_std": 0.0015662524856874683
+    },
+    {
+      "feature": "Init_Win_bytes_backward",
+      "importance_mean": 0.0004860140303058665,
+      "importance_std": 0.0005265755970014838
+    },
+    {
+      "feature": "Fwd IAT Min",
+      "importance_mean": 8.012820512822334e-05,
+      "importance_std": 0.00011331839442094685
+    },
+    {
+      "feature": "Flow Duration",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Total Fwd Packets",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Total Backward Packets",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Total Length of Fwd Packets",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Total Length of Bwd Packets",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Fwd Packet Length Max",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Fwd Packet Length Min",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Fwd Packet Length Mean",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Fwd Packet Length Std",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Bwd Packet Length Max",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Bwd Packet Length Min",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Bwd Packet Length Mean",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Flow Bytes/s",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Flow Packets/s",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Flow IAT Mean",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    },
+    {
+      "feature": "Flow IAT Std",
+      "importance_mean": 0.0,
+      "importance_std": 0.0
+    }
+  ]
+}

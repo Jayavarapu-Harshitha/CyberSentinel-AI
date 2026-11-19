@@ -1,0 +1,77 @@
+{
+  "feature_ablation": "half features by training-set variance; exploratory, not optimal feature selection",
+  "reduced_feature_count": 38,
+  "reduced_training_seconds": 5.552404448000061,
+  "test_metrics": {
+    "mlp_only": {
+      "accuracy": 0.9723943661971831,
+      "balanced_accuracy": 0.972851986854405,
+      "precision": 0.9559286463798531,
+      "recall": 0.9750267570460222,
+      "f1": 0.9653832567997174,
+      "pr_auc": 0.995769028584817,
+      "roc_auc": 0.9970100438449412,
+      "false_positive_rate": 0.02932278333721201,
+      "tn": 4171,
+      "fp": 126,
+      "fn": 70,
+      "tp": 2733
+    },
+    "tree_only": {
+      "accuracy": 0.9974647887323944,
+      "balanced_accuracy": 0.9972853149211536,
+      "precision": 0.997143877186719,
+      "recall": 0.9964323938637174,
+      "f1": 0.9967880085653105,
+      "pr_auc": 0.9999066986544473,
+      "roc_auc": 0.9999376063297319,
+      "false_positive_rate": 0.0018617640214102862,
+      "tn": 4289,
+      "fp": 8,
+      "fn": 10,
+      "tp": 2793
+    },
+    "equal_fusion": {
+      "accuracy": 0.9963380281690141,
+      "balanced_accuracy": 0.9961683727440205,
+      "precision": 0.9953621120228326,
+      "recall": 0.9953621120228326,
+      "f1": 0.9953621120228326,
+      "pr_auc": 0.9995343354628656,
+      "roc_auc": 0.9996543232918684,
+      "false_positive_rate": 0.003025366534791715,
+      "tn": 4284,
+      "fp": 13,
+      "fn": 13,
+      "tp": 2790
+    },
+    "tuned_fusion": {
+      "accuracy": 0.9973239436619719,
+      "balanced_accuracy": 0.9971689546698155,
+      "precision": 0.9967880085653105,
+      "recall": 0.9964323938637174,
+      "f1": 0.9966101694915255,
+      "pr_auc": 0.999731104285816,
+      "roc_auc": 0.9998060939229396,
+      "false_positive_rate": 0.002094484524086572,
+      "tn": 4288,
+      "fp": 9,
+      "fn": 10,
+      "tp": 2793
+    },
+    "mlp_half_features": {
+      "accuracy": 0.9577464788732394,
+      "balanced_accuracy": 0.9492768104521809,
+      "precision": 0.9826455842653298,
+      "recall": 0.9090260435247949,
+      "f1": 0.9444032616753151,
+      "pr_auc": 0.9877970021731636,
+      "roc_auc": 0.9894635231991122,
+      "false_positive_rate": 0.01047242262043286,
+      "tn": 4252,
+      "fp": 45,
+      "fn": 255,
+      "tp": 2548
+    }
+  }
+}

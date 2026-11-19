@@ -1,0 +1,100 @@
+{
+  "held_out_file_pattern": "Friday-WorkingHours-Afternoon-DDos",
+  "note": "File-held-out test; attacks exclusive to held-out file may be unseen classes; metrics do not imply unseen-family detection",
+  "train_rows": 33309,
+  "validation_rows": 5879,
+  "test_rows": 8144,
+  "test_positive_fraction": 0.8414783889980354,
+  "models": {
+    "lightgbm": {
+      "validation": {
+        "accuracy": 0.998299030447355,
+        "balanced_accuracy": 0.9976636931228084,
+        "precision": 0.9983069977426636,
+        "recall": 0.9960585585585585,
+        "f1": 0.9971815107102593,
+        "pr_auc": 0.999650601450308,
+        "roc_auc": 0.9997789191824045,
+        "false_positive_rate": 0.00073117231294175,
+        "tn": 4100,
+        "fp": 3,
+        "fn": 7,
+        "tp": 1769
+      },
+      "test": {
+        "accuracy": 0.6980599214145383,
+        "balanced_accuracy": 0.8073874141072289,
+        "precision": 0.9906208128628852,
+        "recall": 0.647307748431344,
+        "f1": 0.7829847321507369,
+        "pr_auc": 0.9674084571073553,
+        "roc_auc": 0.8425010876294177,
+        "false_positive_rate": 0.032532920216886134,
+        "tn": 1249,
+        "fp": 42,
+        "fn": 2417,
+        "tp": 4436
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "accuracy": 0.994556897431536,
+        "balanced_accuracy": 0.9938650416197333,
+        "precision": 0.9898876404494382,
+        "recall": 0.9921171171171171,
+        "f1": 0.9910011248593926,
+        "pr_auc": 0.9991654871236519,
+        "roc_auc": 0.9994324082795932,
+        "false_positive_rate": 0.004387033877650499,
+        "tn": 4085,
+        "fp": 18,
+        "fn": 14,
+        "tp": 1762
+      },
+      "test": {
+        "accuracy": 0.7026031434184676,
+        "balanced_accuracy": 0.8198313753366452,
+        "precision": 0.9975297552211992,
+        "recall": 0.6481832773967605,
+        "f1": 0.7857774632938263,
+        "pr_auc": 0.9822331363257004,
+        "roc_auc": 0.9164237184933623,
+        "false_positive_rate": 0.008520526723470178,
+        "tn": 1280,
+        "fp": 11,
+        "fn": 2411,
+        "tp": 4442
+      }
+    },
+    "mlp": {
+      "validation": {
+        "accuracy": 0.9736349719340024,
+        "balanced_accuracy": 0.9708925352356987,
+        "precision": 0.949528563505269,
+        "recall": 0.963963963963964,
+        "f1": 0.956691813355686,
+        "pr_auc": 0.993434961162996,
+        "roc_auc": 0.9967706556178406,
+        "false_positive_rate": 0.022178893492566416,
+        "tn": 4012,
+        "fp": 91,
+        "fn": 64,
+        "tp": 1712
+      },
+      "test": {
+        "accuracy": 0.6857809430255403,
+        "balanced_accuracy": 0.7947476287192037,
+        "precision": 0.9866273798730735,
+        "recall": 0.6351962644097475,
+        "f1": 0.7728362183754993,
+        "pr_auc": 0.9882134492888421,
+        "roc_auc": 0.9474062087052627,
+        "false_positive_rate": 0.045701006971340045,
+        "tn": 1232,
+        "fp": 59,
+        "fn": 2500,
+        "tp": 4353
+      }
+    }
+  }
+}
